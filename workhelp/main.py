@@ -1,3 +1,10 @@
+"""
+Simple Data save Manager with tkinter ttbootstrap
+Author: Saidino
+License: GNU GPLv3 license
+Source: https://github.com/saidino84/work_staff
+"""
+
 from app.app import LogicApp
 from app.views.home_page import HomePage
 # from PIL import Image, ImageTk
@@ -16,6 +23,7 @@ if __name__=="__main__":
     # app.photoico=ImageTk.PhotoImage(app.icon)
     # app.wm_iconphoto(False,app.photoico)
     _home_page.pack(fill='both',expand=True)
+    
     # _home_page.grid(row=0,column=0,sticky='nesw')
 
     # # Set a minim size for the window and place it int midle

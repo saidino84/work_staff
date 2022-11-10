@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "db-browser"
+version = "0.1.0"
+description = "My app with full database set with SqlAchemy ORM"
+authors = ["Saidino"]
+license = "GNU"
+readme = "README.md"
+packages = [{include = "db_browser"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+ttkbootstrap = "^1.9.0"
+SQLAlchemy = "^1.4.43"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

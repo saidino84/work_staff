@@ -4,17 +4,18 @@
 from PIL import Image, ImageTk
 from ttkbootstrap import Style
 import ttkbootstrap as tk
-
+import tkinter as tk
+from ttkbootstrap import Style
 
 from app.views.iva_calc import IvaCalculator
 
 
-class LogicApp(tk.Window):
+class LogicApp(tk.Tk):
     def __init__(self,title='Utility',themename='darkly',**kw):
-        tk.Window.__init__(self)
+        super().__init__(*kw)
         self.title=title
         self.themename=themename
-        # self.style=Style(theme='darkly')
+        self.style=Style('darkly')
         # self.attributes('-topmost',True) 
         # self.themename='darkly'
         self.icon=Image.open('app/assets/impuesto.png')

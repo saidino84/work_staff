@@ -16,3 +16,6 @@ const defaultPadding = 16.0;
 
 
 """
+
+def set_height(new):
+    ...

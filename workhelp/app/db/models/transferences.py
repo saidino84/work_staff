@@ -24,4 +24,4 @@ class Tranferencia:
     def __repr__(self)->str:
         return f"N:{self.number},"
 def get_tranference_as_list(self):
-    return 
+    return list(self)
